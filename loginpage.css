@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    position: absolute;
+    margin: 1em .5em;
+    display: flex;
+    color: white;
+
+}
+
+header img{
+    width: 3.5em;
+    margin-right: 1em;
+
+}
+
+h1{
+    text-shadow: 1px 2px 4px black;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(180, 179, 179, 0.5),rgba(180, 179, 179, 0.5)), url(img/akademik.jpg);  
+    background-size: cover; 
+    display: flex;
+}
+
+.login{
+    width: 35vw;
+    height: 50vh;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.container{
+
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content{
+    width: 30%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(214, 214, 214, 1);
+}
