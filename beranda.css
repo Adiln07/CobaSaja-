@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: .7em 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 25px;
+    z-index: 9999;
+    border: 1px solid black;
+
+}
+
+.header{
+   display: flex; 
+}
+
+.header img{
+    width: 4em;
+    margin: 0 1em;
+}
+
+.nama{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nama .bulat{
+    width: 4em;
+    height: 4em;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.nama p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* End Header */
+
+/* Navigasi */
+nav{
+    position: static;
+    height: 19vh;
+    width: 100vw;
+    background-color: #646464;
+    opacity: .5;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 2em;
+
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+/* End Navigasi */
+
+/* Main */
+main{
+    background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.7)), url(img/akademik.jpg);
+    background-size: cover;
+    height: 81vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.paragraf{
+    width: 40vw;
+
+}
+
+.paragraf p{
+    font-size: 1.4em;
+}
+
+main img{
+    width: 35vw;
+    height: 40vh;   
+    border-radius: 10px;
+    box-shadow: 10px -10px 0px black;
+}
+/* End Main */
