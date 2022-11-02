@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lexend';
+}
+
+/* Navigasi */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background-color: rgba(139, 0, 0, 1);
+}
+
+.unhas{
+    padding-left: 100px;
+}
+
+.header{
+    padding-right:100px ;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.navigasi{
+    background-image: linear-gradient(rgba(169, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(img/unhas\ danau.jpg);
+    background-size: cover;
+    height: 100vh; 
+}
+
+.navigasi ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    background-color: rgb(170, 4, 4);
+    padding: 10px 0;
+
+}
+.navigasi ul li{
+    margin: 0 2.6em;
+} 
+
+.navigasi ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.selamat{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.selamat .mat{
+    color: rgba(169, 0, 0, 1);
+    font-size: 45px;
+    background-color: rgba(255, 199, 0, 1);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.judul{
+    text-align: center;
+    padding-top: 5px;
+    font-size:20px;
+}
+
+/* End Navigasi */
+
+/* Headline */
+
+.line{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.line h2{
+    color:rgba(169, 0, 0, 1) ;
+    text-transform: uppercase; 
+    padding-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.content .content-satu{
+    width: 345px;
+    height: 450px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content .content-satu .text-satu{
+    padding: 20px;
+}
+.content .content-dua{
+    width: 345px;
+    height: 450px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content .content-dua .text-satu {
+    padding: 20px;
+}
+
+.content .content-tiga {
+    width: 345px;
+    height: 450px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content .content-tiga .text-satu {
+    padding: 20px;
+}
+/* End Headline */
+
+/* Tentang Kami */
+
+.tentang{
+    height: 450px;
+    background-color: rgba(169, 0, 0, 1);;
+}
+
+.tentang h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: white;
+    padding: 40px;
+}
+
+.kami{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kami .kami-satu #aka{
+    color: white;
+    font-size: 30px;
+}
+
+.kami .kami-satu #demik {
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.kami .kami-satu button {
+    font-family: 'lexend';
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid rgba(255, 199, 0, 1);
+    background-color: rgba(255, 199, 0, 1) ;
+    margin-top: 15px;
+}
+
+.kami .kami-satu button a{
+    color: rgba(169, 0, 0, 1);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.kami .kami-dua img{
+    box-shadow: 0px 0px 20px 4px #FFC700;
+    border-radius: 20px;
+}
+/* End Tentang Kami */
+
